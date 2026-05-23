@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:aula1": "tsx ./aula1/carro.ts"
+    "start:aula1": "tsx ./aula1/carro.ts",
+    "start:prod:aula1": "node ./dist/aula1/carro.js",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   "type": "commonjs",
   "devDependencies": {
     "@types/node": "^25.9.1",
-    "tsx": "^4.22.3"
+    "tsx": "^4.22.3",
+    "typescript": "^6.0.3"
   }
 }
